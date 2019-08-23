@@ -7,7 +7,7 @@
 # needed.
 #
 # Author: Wilson Ye Chen <yche5077@uni.sydney.edu.au>
-# Date:   July 13, 2017
+# Date:   August 23, 2019
 
 prjt=$1
 job_name=$2
@@ -19,7 +19,7 @@ cmd=$6
 echo "#!/bin/bash"
 echo "#PBS -P $prjt"
 echo "#PBS -N $job_name"
-echo "#PBS -M nci.qsub@gmail.com"
+echo "#PBS -M yche5077@uni.sydney.edu.au"
 echo "#PBS -m ae"
 echo "#PBS -q defaultQ"
 echo "#PBS -l walltime=$wall_time"

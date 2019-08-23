@@ -7,20 +7,20 @@
 # University of Sydney.
 #
 # Author: Wilson Ye Chen <yche5077@uni.sydney.edu.au>
-# Date:   January 15, 2019
+# Date:   August 23, 2019
 
 key=$1
 
-DATAFILE=/project/symbolic/src/SpGarch/data_ss1_$key.mat
-OUTFILE=/project/symbolic/out/spline/est_spgarch_ss1/spgarch_est_$key.mat
-PROJECT=symbolic
+DATAFILE=/project/spgarch-bma/src/spgarch/data_ss1_$key.mat
+OUTFILE=/project/spgarch-bma/out/est_spgarch_ss1/spgarch_est_$key.mat
+PROJECT=spgarch-bma
 JOBNAME=sp_$key
 WALLTIME=48:00:00
 NCPUS=1
 MEM=2GB
 
 cmd="matlab -r \" \
-    addpath('/project/symbolic/src/SpGarch'); \
+    addpath('/project/spgarch-bma/src/spgarch'); \
     try, spgarch_est_job('$DATAFILE', '$OUTFILE'), \
     catch Ex, disp(Ex.message); exit(1), end, exit(0);\" \
     -nosplash -nodisplay -nodesktop -nojvm -singleCompThread"
