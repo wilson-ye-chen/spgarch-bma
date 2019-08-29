@@ -1,10 +1,8 @@
 # spgarch-bma
 Code for 'Semiparametric GARCH via Bayesian Model Averaging'
-<!---
 [arXiv](https://arxiv.org/abs/1708.07587).
--->
-# Data
 
+# Data
 ## Description
 The dataset used in the empirical studies of the paper contains observations of end-of-day (EOD) percentage log-returns for stock indices and individual stocks: S&P 500 (SPX), FTSE 100 (FTSE), DAX, Nikkei Stock Average 225 (Nikkei), Hang Seng (HSI), Apple (AAPL), ARM (ARMH), Intel (INTC), Nvidia (NVDA), and SanDisk (SNDK).
 
