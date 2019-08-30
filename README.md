@@ -46,7 +46,7 @@ plot(xSpl, YSpl);
 * `rngState` - random generator state.
 * `Sigma` - estimated conditional volatilities.
 * `xSpl` - equally spaced grid at which the coefficient function is evaluated.
-* `YSpl` - values of the coefficient function evaluated at `xSpl`.
+* `YSpl` - values of the estimated coefficient function evaluated at `xSpl`.
 * `accRate` - acceptance rate of the MCMC.
 * `Chain` - sampled model parameters.
 * `Model` - sampled knot configurations.
